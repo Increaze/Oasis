@@ -54,7 +54,7 @@ export const LoginForm = () => {
             Register Account
           </button>
 
-          <p className="text-center">Or</p>
+          <p className="text-center text-xs">Or</p>
           <button className="px-[120px] py-3 border shadow focus:shadow-outline rounded-md text-black ">
             Register with Google
           </button>

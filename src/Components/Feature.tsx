@@ -1,34 +1,30 @@
 import { BsArrowRightShort } from "react-icons/bs";
 import { Card } from "./Card";
-import { useNavigate } from "react-router-dom";
+import { BiUser } from "react-icons/bi" 
 
 export default function Feature() {
-  const card = (image: any, title: string, text: string, icon?: any) => ({
+  const card = (image: any, img:any, title: string, text: string, icon?: any) => ({
     image,
+    img,
     title,
     text,
     icon,
   });
 
-  const handleClick=() =>{
-    let navigate = useNavigate();
-    navigate ("/src/Pages/Completed.tsx")
-    console.log("you was called", navigate);
-    
-  }
 
   const data = [
     card(
       "/assets/individual-logo.svg",
+     "/assets/user.svg",
       "Individual",
       "Personal account to manage all you activities.",
       <BsArrowRightShort
         size={30}
-        onClick={handleClick}
       />
     ),
     card(
       "/assets/business-logo.svg",
+      "/assets/briefcase.svg",
       "Business",
       "Own or belong to a company, this is for you."
     ),

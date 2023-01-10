@@ -2,16 +2,16 @@ export const Sidebar = () => {
   return (
     <>
       <aside
-        className="w-5/12 flex flex-col items-center relative h-full
-       bg-[url('https://bit.ly/3QbO0Ko')] bg-no-repeat bg-cover bg-bottom"
+        className="w-5/12 flex flex-col items-center relative h-full 
+       bg-[url('https://images.unsplash.com/photo-1550510537-64a36484eae2')] bg-no-repeat bg-cover bg-bottom"
       >
-        <div className="flex text-white w-[85%] pl-8 gap-x-3 text-xl mt-10 mb-36">
+        <div className="flex text-white w-[85%] pl-8 gap-x-3 text-xl mt-10 mb-36 ">
           <img src="/assets/oasis-logo.svg" alt="Oasis logo" />
           <p className="max-w-sm font-semibold text-base pt-2 text-white">
             Oasis
           </p>
         </div>
-        <div className=" inset-0">
+        <div className="inset-0">
           <img
             className="pl-96 mb-8"
             src="/public/assets/group.svg"
