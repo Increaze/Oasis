@@ -1,0 +1,28 @@
+/* Styling native country `<select/>`. */
+
+.PhoneInput{
+    width: 100%;
+    display: flex;
+
+}
+.PhoneInputCountry {
+	/* position: relative;
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	margin-right: var(--PhoneInputCountrySelect-marginRight); */
+}
+
+.PhoneInputCountrySelect {
+	/* position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	border: 0;
+	opacity: 0;
+	cursor: pointer; */
+}
+
+
